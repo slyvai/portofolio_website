@@ -94,9 +94,8 @@ function Home() {
           </h1>
           <div className="overlay-text">
             <h4 ref={frontendRef}>Frontend Developer</h4>
-            <h4 ref={uiRef}>UI Designer</h4>
+            <h4 ref={uiRef}>Web Designer</h4>
           </div>
-
           <p>I build user interfaces and features for web.</p>
         </div>
 
