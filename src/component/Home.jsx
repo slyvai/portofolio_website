@@ -1,9 +1,8 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
-import starPng from "../assets/star-2-svgrepo-com.svg";
 import Typed from "typed.js";
-import "../styles/Header.css";
+import "../styles/Home.css";
 
 function Home() {
   const el = useRef(null);
@@ -16,7 +15,7 @@ function Home() {
       { x: -100, opacity: 0 },
       { x: 0, opacity: 1, duration: 1, ease: "power3.out" }
     );
-  }, []); 
+  }, []);
 
   useEffect(() => {
     const tl = gsap.timeline({ repeat: -1, repeatDelay: 0.5 });
@@ -80,13 +79,12 @@ function Home() {
               <Link to="/projects">Projects</Link>
             </li>
           </ul>
-          
         </div>
-        
+
         <div className="header-text">
           <h1>
             <span ref={el} />. I'm{" "}
-            <span style={{ color: "#ecc3a5" }}>Slyvia.</span> 
+            <span style={{ color: "#118B50" }}>Slyvia.</span>
           </h1>
           <div className="overlay-text">
             <h4 ref={frontendRef}>Frontend Developer</h4>
