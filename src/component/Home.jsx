@@ -76,12 +76,12 @@ function Home() {
             </li>
             <li>
               <Link to="/about" className="nav-link">
-                About
+                01. About
               </Link>
             </li>
             <li>
               <Link to="/projects" className="nav-link">
-                Projects
+                02. Projects
               </Link>
             </li>
           </ul>
