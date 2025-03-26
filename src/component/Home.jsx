@@ -67,16 +67,22 @@ function Home() {
   return (
     <>
       <div className="header-section">
-        <div className="header-nav">
+        <div className="nav-section">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects" className="nav-link">
+                Projects
+              </Link>
             </li>
           </ul>
         </div>

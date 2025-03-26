@@ -10,7 +10,7 @@ html {
 body {
   background: linear-gradient(90deg, #c9f097, #ffd7a3, #eefac2);
   background-size: 400% 400%;
-  animation: gradientAnimation 10s infinite;
+  animation: gradientAnimation 20s infinite;
 }
 
 @keyframes gradientAnimation {
