@@ -89,8 +89,8 @@ function Home() {
 
         <div className="header-text">
           <h1>
-            <span ref={el} />. I'm{" "}
-            <span style={{ color: "#118B50" }}>Slyvia.</span>
+            <span style={{ color: "#E7D283" }} ref={el} />. I'm{" "}
+            <span style={{ color: "#2D336B" }}>Slyvia.</span>
           </h1>
           <div className="overlay-text">
             <h4 ref={frontendRef}>Frontend Developer</h4>
