@@ -99,16 +99,16 @@
 
 @media screen and (max-width: 768px) {
     .contact-form {
-        margin: 0 2em;
+        margin: 0 10px;
         flex-direction: column;
     }
 
     .contact-form form {
-        width: 95%;
+        width: 90%;
     }
 
     .contact-info {
-        width: 95%;
+        width: 90%;
         text-align: center;
     }
 

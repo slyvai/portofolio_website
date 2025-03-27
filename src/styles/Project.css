@@ -52,5 +52,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .project-card {
+    width: 350px;
+    height: 350px;
+  } 
+
+  .project-card p {
+    text-align: center;
+  }
+
 }

@@ -82,3 +82,22 @@
 .nav-link:hover {
   color: #E7D283;
 }
+
+@media screen and (max-width: 768px) {
+  .header-text {
+    font-size: 1.5rem;
+  }
+
+  .overlay-text h4 {
+    font-size: 2rem;
+  }
+
+  .header-text p {
+    font-size: 1.5rem;
+  }
+
+  .nav-section ul {
+    font-size: 20px;
+  }
+  
+}

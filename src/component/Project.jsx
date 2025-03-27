@@ -50,7 +50,13 @@ function Project() {
       <div className="project-container">
         <Swiper
           spaceBetween={50}
-          slidesPerView={3}
+          slidesPerView={1}
+          breakpoints={{
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+          }}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
         >
