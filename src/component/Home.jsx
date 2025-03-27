@@ -84,6 +84,11 @@ function Home() {
                 02. Projects
               </Link>
             </li>
+            <li>
+              <Link to="/contact" className="nav-link">
+                03. Contact
+              </Link>
+            </li>
           </ul>
         </div>
 
